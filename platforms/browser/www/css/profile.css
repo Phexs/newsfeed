@@ -1,0 +1,45 @@
+/* .app {
+    position:absolute;          
+    left:50%;
+    top:5%;
+    height:50px;                   
+    width:225px;                  
+    text-align:center;
+    padding:160px 0px 0px 0px;    
+    margin:-115px 0px 0px -112px; 
+    
+} */
+.profileimage{
+    background:url(../img/image.png) no-repeat left top; 
+    width:140px x 180px;            /* position in the center of the screen */
+    padding:130px 0px 0px 50px;     /* image height is 200px (bottom 20px are overlapped with text) */
+}
+@media screen and (min-aspect-ratio: 1/1) and (min-width:400px) {
+    .container {
+        padding-top: 4px;
+    }
+}
+@media screen and (min-aspect-ratio: 1/1) and (min-width:700px) {
+    .container {
+        padding-top: 4px;       
+    }
+}
+.card{
+    margin-top: 15px; 
+    /* width: 20rem; */
+}
+.card-img-top{
+    /* background:url(../img/dimg.PNG) no-repeat left top;  */
+    /* width:300px;          */
+    /* padding:130px 0px 0px 50px;  */
+}
+header{
+    background-color: black;
+}
+.icon{
+    text-align: right;
+    padding-top: 10px;
+}
+.save{
+    text-align: right;
+}

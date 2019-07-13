@@ -1,10 +1,29 @@
+* {
+    -webkit-tap-highlight-color: rgba(0,0,0,0); /* make transparent link selection, adjust last value opacity 0 to 1.0 */
+}
+body{
+    -webkit-touch-callout: none;                /* prevent callout to copy image, etc when tap to hold */
+    -webkit-text-size-adjust: none;             /* prevent webkit from resizing text to fit */
+    -webkit-user-select: none;
+}
+@keyframes fade {
+    from { opacity: 1.0; }
+    50% { opacity: 0.4; }
+    to { opacity: 1.0; }
+}  
+ 
+@-webkit-keyframes fade {
+    from { opacity: 1.0; }
+    50% { opacity: 0.4; }
+    to { opacity: 1.0; }
+}
 .card{
     margin-top: 15px; 
-    width: 200px;
-}
+    /* width: 20rem; */
+} 
 .card-img-top{
     /* background:url(../img/dimg.PNG) no-repeat left top;  */
-    width:140px x 160px;         
+    /* width:300px;          */
     /* padding:130px 0px 0px 50px;  */
 }
 header{
@@ -13,4 +32,7 @@ header{
 .icon{
     text-align: right;
     padding-top: 10px;
+}
+.save{
+    text-align: right;
 }
