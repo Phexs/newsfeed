@@ -1,0 +1,16 @@
+.card{
+    margin-top: 15px; 
+    width: 200px;
+}
+.card-img-top{
+    /* background:url(../img/dimg.PNG) no-repeat left top;  */
+    width:140px x 160px;         
+    /* padding:130px 0px 0px 50px;  */
+}
+header{
+    background-color: black;
+}
+.icon{
+    text-align: right;
+    padding-top: 10px;
+}
