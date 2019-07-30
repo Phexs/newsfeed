@@ -63,7 +63,13 @@ body{
     display: inline-block;
 
 }
-#button{
+#button1{
+    width: 220px;
+    padding:10pxpx 0px 10px 0px;
+    text-align: center;
+    
+}
+#button2{
     width: 220px;
     padding:10pxpx 0px 10px 0px;
     text-align: center;

@@ -12,24 +12,39 @@
     <body> 
         <div class="container">
             <header>
+                
                 <div class="icon">
+                    <a href="#"  id="sports" class="btn btn-light">
+                                   <label>Sports</label></a> 
+                               <a href="#"  id="finance" class="btn btn-light">
+                                   <label>finance</label></a> 
+                               <a href="#"  id="business" class="btn btn-light">
+                                   <label>business</label></a> 
                        <a href="profile.html">
-                           <img class="profileicon" src="./img/profile.png" alt="prf">
+                           <img class="profileicon" id="imageIcon" src="./img/profile.png" alt="prf">
                        </a>  
                 </div> 
             </header>
-                <div class="card" >
+            <div class="card" id="output" style="text-align: left">
+                <h1 class="author" id="auth"></h1>
+               
+            </div>
+                    <!-- <div class="save">
+                        <a href="#" ><img  src="./img/save.png" alt="sv"></a>
+                    </div> -->
+                <!-- <div class="card" > -->
+                    
                         <!-- style="width: 22rem;" -->
-                        <img class="card-img-top" src="./img/dimg.PNG" alt="Card image cap">
+                        <!-- <img class="card-img-top" src="" id="image" alt="Card image cap">
                         <div class="card-body">
-                          <h5 class="card-title">News title</h5>
-                              <p class="card-text">Simple description of the news thats been posted </p>
+                          <h5 class="card-title" id="title"></h5>
+                              <h4 class="card-text" id="desc"> </h4>
                                 <div class="save">
                               <a href="#" ><img  src="./img/save.png" alt="sv"></a>
                           </div>
                         </div> 
-                      </div>
-                      <div class="card" >
+                      </div> -->
+                      <!-- <div class="card" >
                             <img class="card-img-top" src="./img/dimg.PNG" alt="Card image cap">
                             <div class="card-body">
                                 <h5 class="card-title">News title</h5>
@@ -48,7 +63,11 @@
                                             <a href="#" ><img  src="./img/save.png" alt="sv"></a>
                                         </div>
                                  </div>
-                              </div>
+                              </div> -->
+
+                              <footer>
+                                 
+                              </footer>
         </div>
        
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" 
@@ -58,6 +77,8 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" 
     integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
     <script type="text/javascript" src="cordova.js"></script>
+    <script type="text/javascript" src="js/newslibrary.js"></script>
+    <script type="text/javascript" src="js/ui.js"></script>
     <script type="text/javascript" src="js/newsfeed.js"></script>
     <!-- <script type="text/javascript">
         app.initialize();

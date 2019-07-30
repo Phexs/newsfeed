@@ -5,6 +5,7 @@ body{
     -webkit-touch-callout: none;                /* prevent callout to copy image, etc when tap to hold */
     -webkit-text-size-adjust: none;             /* prevent webkit from resizing text to fit */
     -webkit-user-select: none;
+    max-width: 390px;
 }
 @keyframes fade {
     from { opacity: 1.0; }
@@ -17,10 +18,18 @@ body{
     50% { opacity: 0.4; }
     to { opacity: 1.0; }
 }
-.card{
+.card ,img{
     margin-top: 15px; 
     /* width: 20rem; */
+    max-width: 390px;
+    width: auto
 } 
+.imageIcon{
+    text-align: right;
+    width: 20px;
+    margin-left: 30px;
+}
+
 .card-img-top{
     /* background:url(../img/dimg.PNG) no-repeat left top;  */
     /* width:300px;          */
@@ -30,9 +39,28 @@ header{
     background-color: black;
 }
 .icon{
-    text-align: right;
+    
     padding-top: 10px;
+}
+.profileicon{
+    margin-left: 70px;
+    text-align: right;
 }
 .save{
     text-align: right;
+}
+#finance{
+    height: 35px;
+    margin-top: 5px;
+    text-align: left;
+}
+#sports{
+    height: 35px;
+    margin-top: 5px;
+    text-align: left;
+}
+#business{
+    text-align: left;
+    height: 35px;
+    margin-top: 5px;
 }
